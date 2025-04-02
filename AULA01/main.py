@@ -21,6 +21,5 @@ class Carro:
     def imprimir(self):
         print(self)
         
-        
 x = Carro("Doblo", 2025)
 print (x)
