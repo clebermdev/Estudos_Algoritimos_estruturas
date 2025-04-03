@@ -1,9 +1,8 @@
-class Pessoa:
-    def __init__(self, nome, = Tangamandapio):
+class Cidade:
+
+    def __init__(self, name = "Tangamandápio" ):
         self.id = None
-        self.nome = nome
-        
+        self.nome = name
+
     def __str__(self):
-        return
-    
-    
+        return "Id: " + str(self.id) + " - " + self.nome
